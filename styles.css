@@ -1,0 +1,113 @@
+
+/* HEADER */
+.header {
+    background-color: #1f2937;
+    height: 100%;
+    flex: 1;
+}
+
+.main-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ .header-links, .header-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+   list-style: none; 
+}
+
+.header-image {
+    height: 400px;
+    width: 400px;
+}
+
+.header-button {
+    border: none;
+    border-radius: 8px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+    width: 100px;
+}
+
+.top-of-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+}
+
+.middle-of-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+}
+
+
+
+.header-main-text, .header-secondary-text {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.text-with-button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* HEADER */
+
+/* RANDOM-INFORMATION WITH BUTTONS */
+.middle-upper {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px  ;
+}
+
+.button-1, .button-2, .button-3, .button-4 {
+    text-align: center;
+}
+
+.but-1, .but-2, .but-3, .but-4{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.middle-upper-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-upper-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px  ;
+}
