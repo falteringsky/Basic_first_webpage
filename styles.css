@@ -1,9 +1,9 @@
-
-/* HEADER */
+/* HEADER START */
 .header {
     background-color: #1f2937;
-    height: 100%;
-    flex: 1;
+}
+.header > * {
+    flex: 
 }
 
 .main-logo {
@@ -59,7 +59,6 @@ ul {
 .middle-of-header {
     display: flex;
     justify-content: space-around;
-    padding: 150px;
 }
 
 
@@ -75,9 +74,17 @@ ul {
     flex-direction: column;
     gap: 10px;
 }
-/* HEADER */
 
-/* RANDOM-INFORMATION WITH BUTTONS */
+.nav-link {
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    opacity: .7;
+}
+/* HEADER END */
+
+/* RANDOM-INFORMATION WITH BUTTONS START */
 .middle-upper {
     background-color: white;
     padding: 30px;
@@ -110,4 +117,85 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 20px  ;
+}
+/* RANDOM INFORMATION WITH BUTTONS END */
+
+/* QUOTE START */
+.middle-middle{
+    background-color: #e5e7eb;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-and-person {
+    width: 50%;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    
+    text-align: center;
+}
+
+.person-quoted {
+    font-weight: bold;
+    text-align: right;
+}
+/* QUOTE END */
+
+/* MIDDLE-LOWER START */
+.middle-lower {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 60px 65px;
+    width: 60%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.upper-text-call {
+    color: #f9faf8;
+    font-size: 30px;
+}
+
+.lower-text-call {
+    color: #e5e7eb;
+}
+
+.middle-lower-button {
+    border:0;
+    border-radius: 8px;
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 24px;
+    width: 100px;
+}
+/* MIDDLE-LOWER END */
+
+/* FOOTER START */
+.footer {
+    background-color: #1f2937;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #f9faf8;
+    text-align: center;
 }
