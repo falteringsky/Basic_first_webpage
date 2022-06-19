@@ -1,7 +1,8 @@
-* {
+*, *::before, *::after {
     margin:0;
     padding:0;
     }
+
 /* HEADER START */
 .but-home {
     width: 45px;
@@ -21,6 +22,7 @@
 
 a {
     text-decoration: none;
+    display: block;
 }
 
 ul {
@@ -42,17 +44,22 @@ ul {
 }
 
 .top-of-header {
+    position: fixed;
+    top: 0;
+    width: 99%;
     background-color: lightgray;
+    backdrop-filter: blur(2rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    padding: 8px 20px;
+    padding: 8px 25px;
 }
 
 .header-links {
     display: flex;
     gap: 25px;
+    margin-right: 25px;
 }
 
 .middle-of-header {
@@ -230,4 +237,14 @@ ul {
 .footer-text {
     color: #f9faf8;
     text-align: center;
+}
+/* Footer end */
+
+/* mobile */
+@media  and (max-width: 767px) {
+    .header {
+        height: 4.8rem;
+        transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1), 
+        height 0.56s cubic-bezier(0.32, 0.08, 0.24, 1);
+    }
 }
